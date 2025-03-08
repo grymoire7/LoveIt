@@ -1,6 +1,6 @@
 # 001: GitHub
 github:
-  Weight: 1
+  Weight: 2
   Prefix: https://github.com/
   Title: GitHub
   Icon:
@@ -8,19 +8,19 @@ github:
 
 # 002: LinkedIn
 linkedin:
-  Weight: 2
+  Weight: 1
   Prefix: https://linkedin.com/in/
   Title: LinkedIn
   Icon:
     Class: fab fa-linkedin fa-fw
 
-# 003: X
-x:
+# 003: substack
+substack:
   Weight: 3
-  Prefix: https://x.com/
-  Title: X
+  Prefix: https://substack.com/
+  Title: Substack
   Icon:
-    Class: fab fa-x-twitter fa-fw
+    Class: fa-solid fa-bookmark fa-fw
 
 twitter:
   Alias: x
