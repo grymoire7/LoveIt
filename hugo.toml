@@ -179,10 +179,11 @@
       enable = true
       # Gravatar Email for preferred avatar in home page
       # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = "tracy@magicbydesign.com"
+      gravatarEmail = ""
+      # gravatarEmail = "tracy@magicbydesign.com"
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "/images/splash.png"
+      avatarURL = "/images/site_banner.png"
       # avatarURL = "/images/avataaars.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
