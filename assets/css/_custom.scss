@@ -2,3 +2,32 @@
 // Custom style
 // 自定义样式
 // ==============================
+
+// Custom styles to override the theme defaults
+
+.home-banner {
+  @include transform(translateY( 12vh));
+  padding: 0 0 0.5em;
+  text-align: center;
+
+  .home-avatar {
+    padding: .5rem;
+    width: 55rem;
+    margin: 0 auto;
+
+    img {
+      display: inline-block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+      @include border-radius(5px);
+      @include box-shadow(0 0 0 .3618em rgba(0, 0, 0, .29));
+      @include transition(all 0.4s ease);
+
+      &:hover {
+        position: relative;
+        @include transform(translateY(-.75rem));
+      }
+    }
+  }
+}

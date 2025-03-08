@@ -3,6 +3,8 @@
     {{- $profile := .Site.Params.home.profile -}}
     {{- $posts := .Site.Params.home.posts -}}
 
+    {{- partial "banner.html" . -}}
+
     <div class="page home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
         {{- /* Profile */ -}}
         {{- if ne $profile.enable false -}}
