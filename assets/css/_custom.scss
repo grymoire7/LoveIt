@@ -5,6 +5,11 @@
 
 // Custom styles to override the theme defaults
 
+.responsive-banner {
+  max-width: 100%;
+  height: auto;
+}
+
 .home-banner {
   @include transform(translateY( 12vh));
   padding: 0 0 0.5em;
@@ -13,6 +18,7 @@
   .home-avatar {
     padding: .5rem;
     width: 55rem;
+    max-width: 95%;
     margin: 0 auto;
 
     img {
@@ -29,5 +35,36 @@
         @include transform(translateY(-.75rem));
       }
     }
+  }
+}
+
+/* Media queries for responsive design */
+@media only screen and (max-width: 1200px) {
+  .home-banner .home-avatar {
+    width: 45rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .home-banner .home-avatar {
+    // width: 35rem;
+    width: 45rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-banner .home-avatar {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .home-banner .home-avatar {
+    width: 95%;
+    padding: .25rem;
+  }
+  
+  .home-banner {
+    @include transform(translateY(8vh));
   }
 }
