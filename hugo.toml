@@ -183,7 +183,7 @@
       # gravatarEmail = "tracy@magicbydesign.com"
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "/images/site_banner.png"
+      avatarURL = "/images/bg_cropped.jpg"
       # avatarURL = "/images/avataaars.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
@@ -196,7 +196,7 @@
       typeit = true
       # whether to show social links
       # 是否显示社交账号
-      social = true
+      social = false
       # disclaimer (HTML format is supported)
       # 免责声明 (支持 HTML 格式)
       disclaimer = ""
